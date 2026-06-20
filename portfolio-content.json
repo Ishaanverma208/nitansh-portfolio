@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "name": "Nitansh Deep",
+    "title": "Equity Research | Financial Modelling & Valuation",
+    "tagline": "Building data-driven investment views on Indian listed companies.",
+    "resumeLink": "/Nitansh_Deep_Resume.pdf"
+  },
+  "about": {
+    "bio": "Finance graduate and CFA Level II candidate with hands-on experience in financial modeling, valuation, and equity research. Developed detailed financial models and research reports on listed Indian companies across the electrical equipment, automobile, and consumer sectors. Strong understanding of financial statement analysis, forecasting, DCF valuation, and industry research. Passionate about investment research and building data-driven investment views.",
+    "education": "BBA (Financial Technology) — Presidency University, Bengaluru",
+    "certifications": "CFA Level II Candidate (Appeared May 2026)",
+    "location": "Varanasi, Uttar Pradesh",
+    "email": "nitanshdeep112@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/nitanshdp/",
+    "stats": [
+      { "label": "Financial Models", "value": "5+" },
+      { "label": "CFA Level", "value": "Level II" },
+      { "label": "Sectors Covered", "value": "3" },
+      { "label": "Companies Analyzed", "value": "4" }
+    ]
+  },
+  "tickerSymbols": [
+    { "symbol": "POLYCAB", "price": "7,120.50", "change": "+1.2%" },
+    { "symbol": "HAVELLS", "price": "1,850.25", "change": "-0.5%" },
+    { "symbol": "MARUTI", "price": "12,450.00", "change": "+2.1%" },
+    { "symbol": "HYUNDAI", "price": "1,980.75", "change": "-1.1%" },
+    { "symbol": "NIFTY 50", "price": "23,500.10", "change": "+0.8%" }
+  ],
+  "departments": [
+    {
+      "id": "automobile",
+      "name": "Automobile",
+      "companies": ["maruti", "hyundai"]
+    },
+    {
+      "id": "consumer-electrical",
+      "name": "Consumer Electrical",
+      "companies": ["polycab"]
+    },
+    {
+      "id": "consumer-durable",
+      "name": "Consumer Durable",
+      "companies": ["havells"]
+    }
+  ],
+  "companies": [
+    {
+      "id": "polycab",
+      "name": "Polycab India Limited",
+      "department": "Consumer Electrical",
+      "rating": "BUY",
+      "targetPrice": "₹7,530",
+      "thesis": "Polycab is the market leader in India's wires and cables industry, commanding a dominant market share. With robust revenue growth driven by rising infrastructure spending, urbanization, and government push towards electrification and renewable energy, Polycab is well-positioned for long-term value creation. The FMEG segment offers optionality for re-rating as it scales. Strong balance sheet, healthy cash flows, and consistent margin expansion support a BUY recommendation.",
+      "keyMetrics": {
+        "revenue": "₹22,377 Cr",
+        "pat": "₹2,119 Cr",
+        "peRatio": "47.5x"
+      },
+      "previewImage": "/images/polycab-preview.png"
+    },
+    {
+      "id": "havells",
+      "name": "Havells India Limited",
+      "department": "Consumer Durable",
+      "rating": "BUY",
+      "targetPrice": "₹1,890",
+      "thesis": "Havells is a leading electrical consumer goods company with a diversified product portfolio spanning switchgear, cables, lighting, and consumer appliances under the Lloyd brand. The company benefits from strong brand equity, wide distribution reach, and premiumization trends in Indian households. Growth is underpinned by rising disposable incomes, shift towards organized players, and the company's ongoing capacity expansion.",
+      "keyMetrics": {
+        "revenue": "₹18,637 Cr",
+        "pat": "₹1,407 Cr",
+        "peRatio": "72.3x"
+      },
+      "previewImage": "/images/havells-preview.png"
+    },
+    {
+      "id": "maruti",
+      "name": "Maruti Suzuki India Limited",
+      "department": "Automobile",
+      "rating": "BUY",
+      "targetPrice": "₹14,200",
+      "thesis": "Maruti Suzuki is India's largest passenger vehicle manufacturer with over 40% market share. The company is executing a strong product cycle across SUVs and premium segments, moving up the value chain. Backed by Suzuki's manufacturing expertise, strong dealer network, and industry-leading cost efficiency, Maruti is well-positioned to benefit from India's growing auto penetration. The new EV and hybrid strategy adds a multi-year growth driver.",
+      "keyMetrics": {
+        "revenue": "₹1,41,015 Cr",
+        "pat": "₹13,488 Cr",
+        "peRatio": "26.8x"
+      },
+      "previewImage": "/images/maruti-preview.png"
+    },
+    {
+      "id": "hyundai",
+      "name": "Hyundai Motor India Limited",
+      "department": "Automobile",
+      "rating": "BUY",
+      "targetPrice": "₹2,150",
+      "thesis": "Hyundai Motor India is the second-largest passenger vehicle manufacturer in India with a strong presence across the SUV and premium sedan segments. Post its IPO, the company offers investors direct exposure to India's fast-growing auto market. Hyundai's competitive advantages include a modern product lineup, strong brand perception, and efficient manufacturing capabilities. Its EV portfolio and export potential provide additional growth vectors.",
+      "keyMetrics": {
+        "revenue": "₹71,302 Cr",
+        "pat": "₹6,060 Cr",
+        "peRatio": "25.1x"
+      },
+      "previewImage": "/images/hyundai-preview.png"
+    }
+  ]
+}
