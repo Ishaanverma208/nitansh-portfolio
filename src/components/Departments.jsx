@@ -58,7 +58,7 @@ export default function Departments() {
               style={{ transitionDelay: `${i * 120}ms` }}
             >
               {/* Subtle background glow on hover */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-electric/0 via-electric/5 to-electric/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
+              <div className="absolute -inset-2 bg-gradient-to-r from-electric/0 via-electric/5 to-electric/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl pointer-events-none" />
               
               {/* Icon */}
               <div className="mb-6 p-3 bg-navy-light/50 border border-border/50 rounded-xl w-fit group-hover:border-electric/30 transition-colors">

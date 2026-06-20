@@ -108,7 +108,7 @@ export default function About() {
               className="reveal relative p-6 sm:p-8 overflow-hidden group border border-border/30 bg-charcoal/20 rounded-2xl"
               style={{ transitionDelay: `${i * 100}ms` }}
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-electric/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              <div className="absolute inset-0 bg-gradient-to-br from-electric/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
               <p className="font-serif text-3xl sm:text-4xl font-bold text-offwhite mb-2 relative z-10">
                 {stat.value}
               </p>
